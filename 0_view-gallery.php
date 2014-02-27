@@ -38,7 +38,7 @@ $nNext = min($nTotal - 1,  $nCurImage + 1);
 		var nCurImage = <?php echo $nCurImage; ?>;
 		
 		function redirectToImage(nImage) {
-			window.location.href = "view-gallery.php?image=" + nImage
+			window.location.href = "0_view-gallery.php?image=" + nImage
 		}
 		
 		$(document).ready(function () {
