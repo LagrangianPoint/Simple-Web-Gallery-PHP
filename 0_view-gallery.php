@@ -3,7 +3,7 @@
 $arrImageFiles = array();
 
 foreach (glob("*.*") as $strFileName) {
-	if (preg_match("~\.(jpeg|jpg|png|gif)$~", $strFileName) ) {
+	if (preg_match("~\.(jpeg|jpg|png|gif)$~i", $strFileName) ) {
 		$arrImageFiles[] = $strFileName;
 	}
 }
